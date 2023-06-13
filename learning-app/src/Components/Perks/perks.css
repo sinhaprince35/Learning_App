@@ -1,0 +1,25 @@
+.perks-container{
+    background-color: #fff8fc;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    padding: 20px;
+}
+.perksTitle{
+    margin-top: 50px;
+    text-align: center;
+    font-size:25px;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-width:768px) {
+    .perks-container {
+        padding: 10px;
+      }
+      .perksTitle{
+        margin-top: 25px;
+        font-size:15px;
+        margin-left: 1px;
+      }
+    }
