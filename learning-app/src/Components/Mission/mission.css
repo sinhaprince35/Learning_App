@@ -1,5 +1,5 @@
 .mission-container {
-    background-color: #fff8fc;
+    /* background-color: #fff8fc; */
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -45,6 +45,7 @@
   @media screen and (max-width:768px) {
     .mission-container {
         padding: 10px;
+        padding-top: 100px;
       }
       .missionTitle{
         margin-top: 25px;

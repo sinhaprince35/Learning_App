@@ -6,6 +6,7 @@
     align-items: center;
     transition: height 0.3s ease-in-out;
     overflow: hidden;
+    position: fixed;
 }
 
 .logo {
@@ -38,7 +39,7 @@
 }
 
 .navbar {
-    margin-left: 22em;
+    margin-left: 35em;
 }
 
 nav ul {
@@ -103,6 +104,7 @@ nav ul li a:hover::after {
         grid-template-columns: auto;
         transition: max-height 0.3s ease-in-out;
         /* margin: 0em 1em; */
+        background-color: #f0eeee;
     }
 
     .navbar {

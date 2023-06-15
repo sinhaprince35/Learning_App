@@ -5,9 +5,8 @@ import Image from './pngwing.png'
 
 const Home = () => {
   return (
-    <div className="container">
+    <div id="home" className="container">
       <div className="left-container">
-        {/* Making Rocket Emoji using unicode */}
         <h1 className="heading-1">
           Frontend Developer Series <span>&#x1F680;</span>
         </h1>

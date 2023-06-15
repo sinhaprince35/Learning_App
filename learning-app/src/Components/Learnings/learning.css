@@ -1,0 +1,42 @@
+.learning-container {
+    background-color: #f1fff5;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    padding: 20px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 50px;
+}
+
+.row-content {
+    margin-bottom: 30px;
+}
+
+.courseDetails {
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.message{
+    margin: 0em 15em;
+    margin-top: 5em;
+}
+
+@media screen and (max-width:768px) {
+        .learning-container {
+            padding-top: 60px;
+    }
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .message{
+        margin: 0em 0em;
+        margin-top: 3em;
+    }
+}

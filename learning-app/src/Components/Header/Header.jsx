@@ -1,40 +1,44 @@
 import "./header.css";
 import logo from "./logo.jpg";
 
-
 const Header = () => {
-
   return (
     <div className="header">
       <div className="logo">
-        <a href="/"><img src={logo} alt="logo" /></a>
+        <a href="#home">
+          <img src={logo} alt="logo" />
+        </a>
         <span>
-          <h2><a href="/">EdTech Learning</a></h2>
+          <h2>
+            <a href="#home">EdTech Learning</a>
+          </h2>
         </span>
       </div>
       <div className="navbar">
         <nav>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="Mission">Mission</a>
+              <a href="#mission">Mission</a>
             </li>
             <li>
-              <a href="Perks">Perks</a>
+              <a href="#perks">Perks</a>
             </li>
             <li>
-              <a href="Learnings">Learnings</a>
+              <a href="#learnings">Learnings</a>
             </li>
             <li>
-              <a href="FAQs">FAQs</a>
+              <a href="#faq">FAQs</a>
             </li>
           </ul>
         </nav>
       </div>
       <div>
-        <button className="enrollBtn" href="#">Enroll Now</button>
+        <button className="enrollBtn" Link to="/">
+          Enroll Now
+        </button>
       </div>
     </div>
   );
